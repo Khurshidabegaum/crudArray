@@ -1,0 +1,42 @@
+package org.jsp.crudoperation;
+
+import java.util.Scanner;
+
+public class App {
+
+	public static void main(String[] args)
+	{
+		Service s=new Service();
+		System.out.println("======Product management system=======");
+		Scanner ip=new Scanner(System.in);
+		System.out.println("Enter the size of the DataBase....!!");
+		int size=ip.nextInt();
+		s.createDatabase(size);
+		while(true)
+		{
+			System.out.println("=====MENU=========");
+			System.out.println("1.Add Product\n2.Find By Id");
+			System.out.println("3.Find By company \n4.Update By Id");
+			System.out.println("5.All Details \n6.Exit");
+			System.out.println(" enter the option:-");
+			int op=ip.nextInt();
+			switch(op)
+{
+			case 1:System.out.println("not implemented");break;
+			case 2:System.out.println("not implemented");break;
+			case 3:System.out.println("not implemented");break;
+			case 4:System.out.println("not implemented");break;
+			case 5:System.out.println("not implemented");break;
+			case 6:System.out.println("not implemented");break;
+			
+				
+
+			default:
+				break;
+			}
+		}
+		
+
+	}
+
+}

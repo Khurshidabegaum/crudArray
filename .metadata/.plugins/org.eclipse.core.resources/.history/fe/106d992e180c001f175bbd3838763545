@@ -1,0 +1,19 @@
+package org.jsp.crudoperation;
+
+import java.util.Scanner;
+
+public class App {
+
+	public static void main(String[] args)
+	{
+		Service s=new Service();
+		System.out.println("======Product management system=======");
+		Scanner ip=new Scanner(System.in);
+		System.out.println("Enter the size of the DataBase....!!");
+		int size=ip.nextInt();
+		s.createDatabase(size);
+		
+
+	}
+
+}

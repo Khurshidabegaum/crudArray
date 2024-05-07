@@ -1,0 +1,17 @@
+package org.jsp.crudoperation;
+
+public class Service {
+
+	Product[] arr;
+	
+	void createDatabase(int size)
+	{
+		arr=new Product[size];
+		System.out.println("data base jas been created with");
+	}
+	
+	void addProduct()
+	{
+		
+	}
+}

@@ -1,0 +1,21 @@
+package org.jsp.crudoperation;
+
+import java.util.Scanner;
+
+public class Service {
+
+	Product[] arr;
+	int k=0;
+	Scanner ip=new Scanner(System.in);
+	
+	void createDatabase(int size)
+	{
+		arr=new Product[size];
+		System.out.println("data base jas been created with");
+	}
+	
+	void addProduct()
+	{
+		
+	}
+}

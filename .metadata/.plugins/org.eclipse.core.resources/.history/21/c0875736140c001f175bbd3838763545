@@ -1,0 +1,11 @@
+package org.jsp.crudoperation;
+
+public class Product 
+{
+	private int pid;
+	private String pname;
+	private double price;
+	private String company;
+	private int qt;
+
+}
